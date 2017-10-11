@@ -4,8 +4,6 @@ FROM ubuntu:14.04
 RUN apt-get update -y
 RUN apt-get install -y python-pip python-dev
 
-ENV CELERY_BROKER_URL redis://redis:6379/0
-ENV CELERY_RESULT_BACKEND redis://redis:6379/0
 ENV C_FORCE_ROOT true
 
 ENV HOST 0.0.0.0

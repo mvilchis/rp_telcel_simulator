@@ -4,10 +4,10 @@ from celery import Celery
 env=os.environ
 REDIS_HOST = os.getenv('REDIS_PORT_6379_TCP_ADDR')
 REDIS_PORT = int(os.getenv('REDIS_PORT_6379_TCP_PORT'))
-redis = "redis://%s:%s" % (REDIS_HOST, REDIS_PORT)
+redis = "redis://%s:%s/0" % (REDIS_HOST, REDIS_PORT)
 
-CELERY_BROKER_URL=env.get('CELERY_BROKER_URL',redis),
-CELERY_RESULT_BACKEND=env.get('CELERY_RESULT_BACKEND',redis)
+CELERY_BROKER_URL=redis
+CELERY_RESULT_BACKEND=redis
 
 
 celery= Celery('tasks',

@@ -6,7 +6,7 @@ ALTA_SECOND_QUESTION="Cual es tu edad"
 ALTA_SECOND_RESPONSE="31"
 
 ALTA_THIRD_QUESTION="Donde recibes tu atencion medica principalmente ? 1:IMSS 2:ISSSTE 3:Seguro Popular 4:Institutos Nacionales 5:PEMEX 6:SEMAR,SEDENA 7:Farmacias 8:Privado 9:Otro"
-ALTA_THIRD_QUESTIONRESPONSE="1"
+ALTA_THIRD_RESPONSE="1"
 
 ALTA_FOURTH_QUESTION="Te encuentras embarazada en este momento? (Si/No)"
 ALTA_FOURTH_RESPONSE="No"
@@ -32,7 +32,7 @@ QUESTION_ANSWERS = {"a_1": {"q":ALTA_FIRST_QUESTION,
                     "a_4": {"q":ALTA_FOURTH_QUESTION,
                             "a":ALTA_FOURTH_RESPONSE},
                     "a_5": {"q":ALTA_FIFTH_QUESTION,
-                            "a":ALTA_FIFTH_RESPONSE}
+                            "a":ALTA_FIFTH_RESPONSE},
                     "a_6": {"q":ALTA_SIXTH_QUESTION,
                             "a":ALTA_SIXTH_RESPONSE},
                     "e_1": {"q":ENCUESTA_FIRST_QUESTION,
