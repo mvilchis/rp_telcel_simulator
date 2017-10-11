@@ -1,5 +1,0 @@
-Flask-API
-dateparser
-markdown
-requests
-############# PROJECT REQUIREMENTS #############
