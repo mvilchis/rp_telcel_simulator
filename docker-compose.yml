@@ -20,7 +20,7 @@ services:
     depends_on:
       - redis
     environment:
-      - RP_URL=http://172.20.165.57:8000/handlers/kannel/receive/e37538ad-1cb8-4377-a6cd-8e75b4724a7d/
+      - RP_URL=https://rapidpro.datos.gob.mx/handlers/kannel/receive/ddf75144-a477-4461-a803-e758c886f65a/
   monitor:
     build:
       context: ./celery-worker
